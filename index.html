@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:wdth,wght@62.5..100,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="owl/owl.carousel.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__logo">
+                <img src="./img/svg/logo.svg" alt="Logo">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__ul" id="headerUl">
+                    <li class="header__li"><a href="/" class="header__a">главная</a></li>
+                    <li class="header__li"><a href="/" class="header__a">меню</a></li>
+                    <li class="header__li"><a href="/" class="header__a">контакты</a></li>
+                    <li class="header__li"><a href="/" class="header__a">галлерея</a></li>
+                    <span class="material-icons icon-close" onclick="navToggle()">close</span>
+                </ul>
+                <span class="header__backdrop" onclick="navToggle()"></span>
+                <span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+            </nav>
+            <div class="header__contacts">
+                <a href="/"><img src="./img/svg/phone.svg" alt="Phone" class="header__contacts-phoneSvg"></a>
+                <p class="header__contacts-phone">+380 (98) 765 43 21</p>
+                <div class="header__contacts-icons">
+                    <a href="/"><img src="./img/svg/instagram.svg" alt="Instagram"></a>
+                    <a href="/"><img src="./img/svg/facebook.svg" alt="Facebook"></a>
+                    <a href="/"><img src="./img/svg/twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/owl.script.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
