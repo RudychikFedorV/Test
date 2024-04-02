@@ -3,65 +3,34 @@ html {
 }
 body {
   font-size: 16px;
-  font-family: var(--ff);
+  --font-family: var(--ff);
   --second-family: var(--sf);
   --third-family: var(--tf);
+  scroll-behavior: smooth;
 }
 .wrapper {
   max-width: 1440px;
   margin-inline: auto;
-  background: #000;
 }
 .container {
   max-width: 1128px;
   margin-inline: auto;
 }
-.h1-title {
-  color: $color-h1;
-  font: var(--h1-400-48);
-
-  @include tablet {
-    font: var(--h1-400-48);
-  }
-  @include tablet-small {
-    font: var(--h1-400-48);
-  }
-  @include mobile {
-    font: var(--h2-400-37);
-  }
-  @include mobile-small {
-    font: var(--h2-400-30);
-  }
-}
-.h2-title {
-  color: $color-h1;
-  font: var(--h2-400-37);
-
-  @include tablet {
-    font: var(--h2-400-37);
-  }
-  @include tablet-small {
-    font: var(--h2-400-37);
-  }
-  @include mobile {
-    font: var(--h2-400-37);
-  }
-  @include mobile-small {
-    font: var(--h2-400-30);
-  }
-}
-.desc {
-  color: $color-h1;
-  font: var(--desc-400-16);
-}
 .icon {
-  fill: $black;
+  fill: #000;
   transition: var(--transition);
 }
 
 .icon:hover {
-  fill: $primary;
+  fill: var(--c-primary);
 }
 img {
   cursor: pointer;
+}
+
+.svg {
+  transition: var(--transition);
+  &:hover {
+    scale: 1.1;
+  }
 }
