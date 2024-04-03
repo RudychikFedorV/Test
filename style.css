@@ -189,7 +189,7 @@ img {
   background-color: #d1d1d1; }
 
 .welcome {
-  background: url(../../img/wrapper.png);
+  background: url(./img/wrapper.png);
   background-size: auto;
   padding: 10px 98px 176px 97px; }
   @media (max-width: 1200px) {
@@ -328,7 +328,7 @@ img {
       height: 30px; } }
 
 .menu {
-  background: url(../../img/white-black.png);
+  background: url(./img/white-black.png);
   padding-top: 50px; }
   .menu-title {
     text-align: center;

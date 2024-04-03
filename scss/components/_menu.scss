@@ -1,8 +1,6 @@
 .menu {
-  background: url(../../img/white-black.png);
+  background: url(./img/white-black.png);
   padding-top: 50px;
-  //   @include f-c-c;
-  //   flex-direction: column;
   &-title {
     text-align: center;
     font-family: var(--font-family);
